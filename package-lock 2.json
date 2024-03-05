@@ -2826,9 +2826,9 @@
       "dev": true
     },
     "node_modules/@jridgewell/trace-mapping": {
-      "version": "0.3.25",
-      "resolved": "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.25.tgz",
-      "integrity": "sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==",
+      "version": "0.3.24",
+      "resolved": "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.24.tgz",
+      "integrity": "sha512-+VaWXDa6+l6MhflBvVXjIEAzb59nQ2JUK3bwRp2zRpPtU+8TFRy9Gg/5oIcNlkEL5PGlBFGfemUVvIgLnTzq7Q==",
       "dev": true,
       "dependencies": {
         "@jridgewell/resolve-uri": "^3.1.0",
@@ -3452,6 +3452,20 @@
         "url": "https://github.com/tinyhttp/tinyhttp?sponsor=1"
       }
     },
+    "node_modules/@tinyhttp/accepts/node_modules/mime": {
+      "version": "4.0.1",
+      "resolved": "https://registry.npmjs.org/mime/-/mime-4.0.1.tgz",
+      "integrity": "sha512-5lZ5tyrIfliMXzFtkYyekWbtRXObT9OWa8IwQ5uxTBDHucNNwniRqo0yInflj+iYi5CBa6qxadGzGarDfuEOxA==",
+      "funding": [
+        "https://github.com/sponsors/broofa"
+      ],
+      "bin": {
+        "mime": "bin/cli.js"
+      },
+      "engines": {
+        "node": ">=16"
+      }
+    },
     "node_modules/@tinyhttp/app": {
       "version": "2.2.3",
       "resolved": "https://registry.npmjs.org/@tinyhttp/app/-/app-2.2.3.tgz",
@@ -3593,6 +3607,20 @@
         "node": ">=12.20.0"
       }
     },
+    "node_modules/@tinyhttp/res/node_modules/mime": {
+      "version": "4.0.1",
+      "resolved": "https://registry.npmjs.org/mime/-/mime-4.0.1.tgz",
+      "integrity": "sha512-5lZ5tyrIfliMXzFtkYyekWbtRXObT9OWa8IwQ5uxTBDHucNNwniRqo0yInflj+iYi5CBa6qxadGzGarDfuEOxA==",
+      "funding": [
+        "https://github.com/sponsors/broofa"
+      ],
+      "bin": {
+        "mime": "bin/cli.js"
+      },
+      "engines": {
+        "node": ">=16"
+      }
+    },
     "node_modules/@tinyhttp/router": {
       "version": "2.2.2",
       "resolved": "https://registry.npmjs.org/@tinyhttp/router/-/router-2.2.2.tgz",
@@ -3614,6 +3642,20 @@
         "node": ">=12.20.0"
       }
     },
+    "node_modules/@tinyhttp/send/node_modules/mime": {
+      "version": "4.0.1",
+      "resolved": "https://registry.npmjs.org/mime/-/mime-4.0.1.tgz",
+      "integrity": "sha512-5lZ5tyrIfliMXzFtkYyekWbtRXObT9OWa8IwQ5uxTBDHucNNwniRqo0yInflj+iYi5CBa6qxadGzGarDfuEOxA==",
+      "funding": [
+        "https://github.com/sponsors/broofa"
+      ],
+      "bin": {
+        "mime": "bin/cli.js"
+      },
+      "engines": {
+        "node": ">=16"
+      }
+    },
     "node_modules/@tinyhttp/type-is": {
       "version": "2.2.2",
       "resolved": "https://registry.npmjs.org/@tinyhttp/type-is/-/type-is-2.2.2.tgz",
@@ -3624,6 +3666,20 @@
       },
       "engines": {
         "node": ">=12.20.0"
+      }
+    },
+    "node_modules/@tinyhttp/type-is/node_modules/mime": {
+      "version": "4.0.1",
+      "resolved": "https://registry.npmjs.org/mime/-/mime-4.0.1.tgz",
+      "integrity": "sha512-5lZ5tyrIfliMXzFtkYyekWbtRXObT9OWa8IwQ5uxTBDHucNNwniRqo0yInflj+iYi5CBa6qxadGzGarDfuEOxA==",
+      "funding": [
+        "https://github.com/sponsors/broofa"
+      ],
+      "bin": {
+        "mime": "bin/cli.js"
+      },
+      "engines": {
+        "node": ">=16"
       }
     },
     "node_modules/@tinyhttp/url": {
@@ -7858,18 +7914,6 @@
       "integrity": "sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==",
       "dev": true
     },
-    "node_modules/karma/node_modules/mime": {
-      "version": "2.6.0",
-      "resolved": "https://registry.npmjs.org/mime/-/mime-2.6.0.tgz",
-      "integrity": "sha512-USPkMeET31rOMiarsBNIHZKLGgvKc/LrjofAnBlOttf5ajRvqiRA8QsenbcooctK6d6Ts6aqZXBA+XbkKthiQg==",
-      "dev": true,
-      "bin": {
-        "mime": "cli.js"
-      },
-      "engines": {
-        "node": ">=4.0.0"
-      }
-    },
     "node_modules/karma/node_modules/source-map": {
       "version": "0.6.1",
       "resolved": "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz",
@@ -8377,17 +8421,15 @@
       }
     },
     "node_modules/mime": {
-      "version": "4.0.1",
-      "resolved": "https://registry.npmjs.org/mime/-/mime-4.0.1.tgz",
-      "integrity": "sha512-5lZ5tyrIfliMXzFtkYyekWbtRXObT9OWa8IwQ5uxTBDHucNNwniRqo0yInflj+iYi5CBa6qxadGzGarDfuEOxA==",
-      "funding": [
-        "https://github.com/sponsors/broofa"
-      ],
+      "version": "2.6.0",
+      "resolved": "https://registry.npmjs.org/mime/-/mime-2.6.0.tgz",
+      "integrity": "sha512-USPkMeET31rOMiarsBNIHZKLGgvKc/LrjofAnBlOttf5ajRvqiRA8QsenbcooctK6d6Ts6aqZXBA+XbkKthiQg==",
+      "dev": true,
       "bin": {
-        "mime": "bin/cli.js"
+        "mime": "cli.js"
       },
       "engines": {
-        "node": ">=16"
+        "node": ">=4.0.0"
       }
     },
     "node_modules/mime-db": {
